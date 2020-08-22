@@ -2,11 +2,12 @@ name: build and push cloudflare-ddns image
 
 on:
   push:
-    tags:
-    - '*'
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  buildx:
+  build:
     runs-on: ubuntu-latest
     steps:
       -
