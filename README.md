@@ -44,4 +44,4 @@ NAME                         = example.com
 For more Cloudflare API informations read the [Cloudflare API documentation v4](https://api.cloudflare.com/)
 
 ## Attribution
-This project is a for of mirioeggmann/cloudflare-ddns to allow for another method of getting a public IP address.
+This project is a fork of mirioeggmann/cloudflare-ddns to allow for another method of getting a public IP address.
